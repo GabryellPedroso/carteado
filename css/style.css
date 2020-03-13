@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	transition: all ease-in-out .3s;
+	margin: 0px;
+	padding: 0px; 
+}
+
+body{
+	margin:0;
+	background-image: url("../imgs/table.jpg");
+	overflow:hidden;
+}
+
+#logo{
+	background-image:url("../imgs/logo.png");
+	width: 400px;
+	height: 400px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+}
+
+.card{
+	width: 169px;
+	height: 253px;
+	position: absolute;
+}
+#card1{
+	background-image:url("../imgs/card-back.png");
+	top: 0;
+	left: 0;
+}
+#target1{
+	top: -110px;
+	left: 14%;
+}
+#card2{
+	background-image:url("../imgs/card-back.png");
+	top: 0;
+	left: 0;
+}
+#target2{
+	top: -80px;
+	left: 20%;
+}
+#card3{
+	background-image:url("../imgs/card-back.png");
+	top: 0;
+	left: 0;
+}
+#target3{
+	top: -90px;
+	left: 26%;
+}
+#target1:hover #card1{
+	width: 179px;
+	transform: rotateY(180deg) translateY(100px);
+	background-image:url("../imgs/jack.jpg");
+	z-index: 3;
+}
+#target2:hover #card2{
+	width: 179px;
+	transform: rotateY(180deg) translateY(100px);
+	background-image:url("../imgs/queen.jpg");
+	z-index: 3;
+}
+#target3:hover #card3{
+	width: 179px;
+	transform: rotateY(180deg) translateY(100px);
+	background-image:url("../imgs/ace.jpg");
+	z-index: 3;
+}
+
+.coin1{
+	width: 150px;
+	height: 151px;
+	background-image:url("../imgs/coin.png");
+	position: absolute;
+	left: 35%;
+}
+
+.coin1-1{
+	width: 150px;
+	height: 151px;
+	background-image:url("../imgs/coin.png");
+	position: absolute;
+	left: 37%;
+	top: -50px;
+}
+
+.card-stop1{
+	width: 179px;
+	height: 253px;
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	border: 1px solid gray;
+}
+
+#card4{
+	background-image:url("../imgs/card-back.png");
+	bottom: 0;
+	right: 0;
+}
+#target4{
+	bottom: -100px;
+	right: 13%;
+}
+#card5{
+	background-image:url("../imgs/card-back.png");
+	bottom: 0;
+	right: 0;
+}
+#target5{
+	bottom: -70px;
+	right: 18%;
+}
+#card6{
+	background-image:url("../imgs/card-back.png");
+	bottom: 0;
+	right: 0;
+}
+#target6{
+	bottom: -90px;
+	right: 23%;
+}
+#target4:hover #card4{
+	width: 179px;
+	transform: rotateY(180deg) translateY(-100px);
+	background-image:url("../imgs/ace.jpg");
+	z-index: 3;
+}
+#target5:hover #card5{
+	width: 179px;
+	transform: rotateY(180deg) translateY(-100px);
+	background-image:url("../imgs/king2.jpg");
+	z-index: 3;
+}
+#target6:hover #card6{
+	width: 179px;
+	transform: rotateY(180deg) translateY(-100px);
+	background-image:url("../imgs/jack2.jpg");
+	z-index: 3;
+}
+
+.coin2{
+	width: 150px;
+	height: 151px;
+	background-image:url("../imgs/coin.png");
+	position:absolute;
+	right: 40%;
+	bottom: 0;
+}
+
+.coin2-2{
+	width: 150px;
+	height: 151px;
+	background-image:url("../imgs/coin.png");
+	position:absolute;
+	right: 37%;
+	bottom: -30px;
+}
+
+.card-stop2{
+	width: 179px;
+	height: 253px;
+	position:absolute;
+	right: 20%;
+	bottom: 30%;
+	background-color: rgba(0,0,0,.2);
+	border: 1px solid gray;
+}

@@ -174,3 +174,7 @@ body{
 	background-color: rgba(0,0,0,.2);
 	border: 1px solid gray;
 }
+
+header {
+	display: none;
+}
